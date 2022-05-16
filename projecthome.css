@@ -77,6 +77,10 @@ a:active {
   color: black;
 }
 
+a:link{
+  color:black;
+}
+
 @media screen and (max-width: 767px) {
   .exam-nav {
     font-size: 8px;
