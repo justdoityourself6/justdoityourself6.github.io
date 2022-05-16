@@ -119,37 +119,50 @@ a:link{
 }
 
 @media screen and (max-width: 767px){
-    .exam-nav{
-    font-size: 8px;
-    box-sizing: border-box;
-    height: 70px;
-  }
- 
-  .nav-div1{
-   width: 14%;
-  }
+   .exam-nav {
+      font-size: 8px;
+      box-sizing: border-box;
+      height: 70px;
+    }
+
+    .nav-div1 {
+      width: 14%;
+    }
 
 
-  .flip-outer{
-    width: 100px;
-    height: 100px;
-    margin-left: -195px;
-  }
-  
-  .text{
-  width: 300px;
-  height: 100px;
-  background-color: whitesmoke;
-  margin-left: 100px;
-  padding: 0px;
-  box-sizing: border-box;
-  line-height: 15px;
-  font-size: 8px;
-}
+    .flip-outer {
+      width: 100px;
+      height: 100px;
+      margin-left: -195px;
+    }
 
-.mf{
-  margin-left: 300px;
-}
+    .text {
+      width: 250px;
+      height: 100px;
+      background-color: whitesmoke;
+      margin-left: 100px;
+      padding: 1px;
+      box-sizing: border-box;
+      line-height: 10px;
+      font-size: 8px;
+    }
 
+    .mf {
+      margin-left: 300px;
+    }
+
+    .mg-1{
+      margin-top: 20px;
+    }
+
+    .mg-2{
+      margin-top: 25px;
+    }
+    .mg-3{
+      margin-top: 20px;
+    }
+    .mg-4{
+      margin-top:-10px;
+    }
 } 
 
