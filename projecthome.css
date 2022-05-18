@@ -66,14 +66,8 @@ a{
 }
 
 .href-style {
-  text-decoration: none;
   font-weight: bold;
 }
-
-.href-class1{
-  font-weight: bold;
-}
-
 
 .show{
   display: none;
