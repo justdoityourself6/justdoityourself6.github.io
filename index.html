@@ -16,7 +16,7 @@
 <body>
   <div class="exam-nav">
     <div class="nav-div">
-      <h3><a id="arj-home" class="href-class1" href="#ryujinhome">RYUJIN AHN</a></h3>
+      <h3><a id="arj-home" class="href-class" href="#ryujinhome">RYUJIN AHN</a></h3>
     </div>
     <div style="flex-grow: 1;"></div>
 
@@ -161,6 +161,7 @@
       $('.href-class1').addClass('href-style');
       $('.href-class2').removeClass('href-style');
       $('.href-class3').removeClass('href-style');
+      $('.href-class1').removeClass('href-normal');
     });
     $("#home").click(function(){
       $('.container').removeClass('show');
@@ -170,6 +171,7 @@
       $('.href-class1').addClass('href-style');
       $('.href-class2').removeClass('href-style');
       $('.href-class3').removeClass('href-style');
+      $('.href-class1').removeClass('href-normal');
     });
     $("#favorite").click(function(){
       $('.container').addClass('show');
@@ -179,6 +181,7 @@
       $('.href-class2').addClass('href-style');
       $('.href-class3').removeClass('href-style');
       $('.href-class1').removeClass('href-style');
+      $('.href-class1').addClass('href-normal');
     });
     $("#hobby").click(function(){
       $('.container').addClass('show');
@@ -188,6 +191,7 @@
       $('.href-class3').addClass('href-style');
       $('.href-class1').removeClass('href-style');
       $('.href-class2').removeClass('href-style');
+      $('.href-class1').addClass('href-normal');
     });
   </script>
 </body>
