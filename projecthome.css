@@ -23,6 +23,10 @@ body {
   margin: auto 1%;
 }
 
+a{
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   height: 600px;
@@ -34,6 +38,7 @@ body {
   box-sizing: border-box;
   position: relative;
   top: 70px;
+
 }
 
 .content {
@@ -45,41 +50,37 @@ body {
   right: 0;
   margin: auto;
   bottom: 60px;
-  padding: 30px;
+  padding: 30px;  
   box-sizing: border-box;
   text-align: center;
+
 }
 
 .my-image {
   height: 400px;
   width: 25%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../image/me.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('./image/me.jpg');
   background-size: cover;
   background-repeat: none;
   margin: 40px auto;
 }
 
-.href-class {
-  text-decoration: none;
-}
-
-.href-class2 {
+.href-style {
   text-decoration: none;
   font-weight: bold;
 }
 
-a:visited {
-  color: black;
 
+
+
+.show{
+  display: none;
 }
 
-a:active {
-  color: black;
+.hidden{
+  display: block;
 }
 
-a:link{
-  color:black;
-}
 
 @media screen and (max-width: 767px) {
   .exam-nav {
