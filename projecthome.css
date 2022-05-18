@@ -74,6 +74,18 @@ body {
   display: block;
 }
 
+.href-class1{
+  font-weight: bold;
+}
+
+.href-normal{
+  font-weight: normal;
+}
+
+.href-class{
+  font-weight: bold;
+}
+
 a{
   text-decoration: none;
 }
