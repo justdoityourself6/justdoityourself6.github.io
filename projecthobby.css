@@ -10,7 +10,7 @@ body {
   display: flex;
   margin: auto;
   background-color: white;
-  z-index: 5;
+  z-index: 10;
 }
 
 .nav-div {
@@ -23,10 +23,13 @@ body {
   margin: auto 10px;
 }
 
-.content {
+.hobby-content {
+  display: none;
   position: relative;
-  top: 70px;
+  top: 80px;
   width: 100%;
+  height: 1000px;
+
 }
 
 .flip-outer {
@@ -80,7 +83,7 @@ body {
   transform: rotateY(180deg);
 }
 
-.text {
+.rmf {
   width: 500px;
   height: 300px;
   background-color: whitesmoke;
@@ -88,20 +91,13 @@ body {
   padding: 20px;
   box-sizing: border-box;
   line-height: 30px;
+  
 }
 
 .mf {
   margin-left: 700px;
 }
 
-.href-class {
-  text-decoration: none;
-}
-
-.href-class2 {
-  text-decoration: none;
-  font-weight: bold;
-}
 
 .mg-1{
   margin-top: 35px;
@@ -151,7 +147,7 @@ a:active {
       margin-left: -200px;
     }
 
-    .text {
+    .rmf {
       width: 220px;
       height: 100px;
       background-color: whitesmoke;
